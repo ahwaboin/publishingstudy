@@ -1,0 +1,51 @@
+@CHARSET "UTF-8";
+
+#home{
+	background-image:url(../images/full_image_2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	position:relative;
+	width:100%;
+	color: #fff;
+	overflow: hidden;
+}
+#home, #home .text-wrap {
+  height: 768px;
+}
+
+#home .text-wrap {
+	display: table;
+	width: 100%;
+	position: relative;
+	z-index: 4;
+}
+
+#home .text-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home .text-inner h1 {
+  font-size: 50px;
+  color: white;
+  margin: 0 0 20px 0;
+}
+#home .text-inner h2 {
+  font-size: 28px;
+  line-height: 38px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+#home .gradient{
+position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  opacity: 0.6;
+  background-color: #52d3aa;
+}

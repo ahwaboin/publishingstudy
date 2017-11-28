@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-#home .text-inner a:hover, #fh5co-home .text-inner a:active, #fh5co-home .text-inner a:focus {
+#home .text-inner a:hover, #home .text-inner a:active, #fh5co-home .text-inner a:focus {
   text-decoration: none;
   color: white;
   border-bottom: 1px dashed white;
